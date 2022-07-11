@@ -58,7 +58,7 @@ if (number==7)
 }
 if (number>7)
 {
-    Console.WriteLine("7 дней в неделе");
+    Console.WriteLine("7 l== дней в неделе");
 }
 if (number<1)
 {
