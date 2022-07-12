@@ -5,8 +5,20 @@ a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3 */
 
-
-
+int a = -9;
+int b = -3;
+Console.WriteLine("a: "+a);
+Console.WriteLine("b: "+b);
+if (a > b) 
+{
+    Console.WriteLine("Max: " + a);
+    Console.WriteLine("Min: " + b);
+}
+else
+{
+    Console.WriteLine("Max: " + b);
+    Console.WriteLine("Min: " + a);
+}
 
 
 
