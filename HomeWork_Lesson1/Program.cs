@@ -85,9 +85,20 @@ else
 5 -> 2, 4
 8 -> 2, 4, 6, 8 */
 
-Console.WriteLine("Введите число ");
+/* Console.WriteLine("Введите число ");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("N = " + a);
 for (int N = 1; N <= a; N++)
     if (N % 2 == 0)
         Console.WriteLine(N);
+ */
+
+int N = 8;
+int i = 2;
+Console.WriteLine("N=" + N);
+while (i <= N)
+{
+    Console.WriteLine(i + " ");
+    i = i + 2;
+
+}
